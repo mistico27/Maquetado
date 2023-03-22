@@ -1,8 +1,16 @@
 body {
-    height: 500px;
+    height: 1500px;
     background-image: url("http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRr6RbZEqrVWwSeuLVXS5JWhOV97XL7v1YVcoTE6EsvG0KEwNctuF5lS2tKnqLybNAc99Ih8FDMYM96JME");
     background-repeat:no-repeat;
     background-position-x:center;
     background-position-y:center;
-    background-size: 10rem;
+    background-size: 100rem;
   }
+
+
+    .cuestionario {
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      font: 150% sans-serif;
+    }
