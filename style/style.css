@@ -28,7 +28,7 @@ body{
     #header #nav ul li a{
       text-decoration:none;
       color: black;
-      
+     
       }
     
 
@@ -47,7 +47,9 @@ body{
       padding:3px 8px 3px 8px;
       background:#99FF99;
       font-size:21px;
-
+      border-radius:30px;
+      -moz-border-radius:20px;
+      -webkit-border-radius:20px;
       }
 
     #wrapper{
