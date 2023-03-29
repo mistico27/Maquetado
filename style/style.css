@@ -36,7 +36,7 @@
 }
 
 p { 
-  color: rgba(128, 4, 0, 0.863);
+  color: rgb(206, 10, 10);
   font-size: 85px;
   text-align: center;
 
@@ -78,7 +78,7 @@ font-size: 25px;
   list-style-type:none;
   display: inline;
   padding:3px 8px 3px 8px;
-  background:#99FF99;
+  background:#c4bfcaef;
   font-size:21px;
   border-radius:30px;
   -moz-border-radius:20px;
