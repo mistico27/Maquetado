@@ -26,7 +26,7 @@
 .cuadrado {
   width: 150px;           
   height: 150px;          
-  background: red;       
+  background: rgba(0, 4, 255, 0.589);       
   border: 1px solid #000; 
 }
 
@@ -36,7 +36,7 @@
 }
 
 p { 
-  color: green;
+  color: rgba(128, 4, 0, 0.863);
   font-size: 85px;
   text-align: center;
 
@@ -50,7 +50,6 @@ p {
 }
 
 #header{
-  background: whitesmoke;
   text-align: center;
   }
 
