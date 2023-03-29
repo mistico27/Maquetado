@@ -23,13 +23,66 @@
 }
 
 
+.cuadrado {
+  width: 150px;           
+  height: 150px;          
+  background: red;       
+  border: 1px solid #000; 
+}
 
+.alCentro {
+  padding: 70px 0;
+  text-align: center;
+}
 
+p { 
+  color: green;
+  font-size: 65px;
+}
 
+.container {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font: 150% sans-serif;
+}
 
+#header{
+  background: whitesmoke;
+  text-align: center;
+  }
 
+  #header #logo img{
+    margin-top:10px;
+    }
 
+  #header #nav{
+    margin-top: 80px;
+    margin-left:650px;
 
+  }
+
+  #header #nav ul li a{
+    text-decoration:none;
+    color: black;
+   
+    }
+   
+#header #nav ul li a:hover{
+color:white;
+font-size: 25px;  
+}
+
+#header #nav ul li{
+  list-style-type:none;
+  display: inline;
+  padding:3px 8px 3px 8px;
+  background:#99FF99;
+  font-size:21px;
+  border-radius:30px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  }
 
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
