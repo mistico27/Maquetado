@@ -31,13 +31,15 @@
 }
 
 .alCentro {
-  padding: 70px 0;
+  padding: 25px 0;
   text-align: center;
 }
 
 p { 
   color: green;
-  font-size: 65px;
+  font-size: 85px;
+  text-align: center;
+
 }
 
 .container {
@@ -83,6 +85,14 @@ font-size: 25px;
   -moz-border-radius:20px;
   -webkit-border-radius:20px;
   }
+
+   
+
+
+    #wrapper #table1 td h3{
+      text-align:center;
+      }           
+
 
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
