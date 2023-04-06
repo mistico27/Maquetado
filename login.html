@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>DEV Community</title>
+    <title>Log In</title>
       <meta name="last-updated" content="2023-04-06 02:04:34 UTC">
       <meta name="user-signed-in" content="true">
       <meta name="head-cached-at" content="1680746674">
@@ -13,10 +13,10 @@
         <!-- Step 3: Enable further functionality based on what we learn from this experimentation and how the ecosystem evolves. -->
         <meta name="monetization" content="$ilp.uphold.com/24HhrUGG7ekn">
       <meta name="environment" content="production">
-      <link rel="stylesheet" href="style/style.css" media="all" id="main-minimal-stylesheet" />
       <link rel="stylesheet" href="style/styleII.css" media="all" id="main-views-stylesheet" />
       <link rel="stylesheet" href="style/styleIII.css" media="all" id="main-crayons-stylesheet" />
-    
+      <link rel="stylesheet" href="style/style4.css" media="all" id="main-minimal-stylesheet" />
+
   </head>
       <body
         class="sans-serif-article-body default-header"
@@ -40,6 +40,7 @@
               --accent-brand-rgb: 59, 73, 223;
               --accent-brand-darker-rgb: 47, 58, 178;
             }
+
           </style>
         </div>
        
@@ -147,56 +148,11 @@
     </li>
   </ul>
 </div>
-<script src="https://dev.to/packs/js/runtime~applyApplicationPolicyToggles-6f886f2b298e566f9a31.js" defer="defer"></script>
-<script src="https://dev.to/packs/js/applyApplicationPolicyToggles-b38f07fbec54c59b2c8b.chunk.js" defer="defer"></script>
 
         </div>
     </div>
   </div>
-    <script>
-      // Here we have some scripts we want to get working on before
-      // waiting for the page to stream in.
-
-      // Load the current user's pic as quickly as it's available
-      var currentUser = localStorage.getItem('current_user')
-      var navProfilePic = document.getElementById('nav-profile-image')
-      if (currentUser && navProfilePic) {
-        navProfilePic.src = JSON.parse(currentUser).profile_image_90;
-      }
-
-      // Load notifications count as quickly as it's available.
-      // Not if we're on the notifications page itself
-      if (
-        window.location.pathname !== '/notifications'
-      ) {
-        var xmlhttp;
-
-        xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-          if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-            var count = xmlhttp.response;
-            if (isNaN(count)) {
-              document
-                .getElementById('notifications-number')
-                .classList.add('hidden');
-            } else if (count != '0' && count != undefined && count != '') {
-              document.getElementById('notifications-number').innerHTML =
-                xmlhttp.response;
-              document
-                .getElementById('notifications-number')
-                .classList.remove('hidden');
-            } else {
-              document
-                .getElementById('notifications-number')
-                .classList.add('hidden');
-            }
-          }
-        };
-
-        xmlhttp.open('GET', '/notifications/counts', true);
-        xmlhttp.send();
-      }
-    </script>
+    
 </header>
 
 <div class="hamburger">
@@ -221,12 +177,7 @@
   <div id="base-payment-pointer" data-payment-pointer="$ilp.uphold.com/24HhrUGG7ekn"></div>
 <div id="page-content" class="wrapper stories stories-index" data-current-page="stories-index">
   <div id="page-content-inner">
-    <div id="page-route-change" class="screen-reader-only" aria-live="polite" aria-atomic="true"></div>
-    
-<script src="https://dev.to/packs/js/runtime~homePage-60c265ee407a99e59847.js" defer="defer"></script>
-<script src="https://dev.to/packs/js/0-6bf46cb11ef27e3ebc1f.chunk.js" defer="defer"></script>
-<script src="https://dev.to/packs/js/1-0a11659385a997393010.chunk.js" defer="defer"></script>
-<script src="https://dev.to/packs/js/homePage-1e2d32204980d1ac4c55.chunk.js" defer="defer"></script>
+    <div id="page-route-change" class="screen-reader-only" aria-live="polite" aria-atomic="true"></div>    
   <div class="crayons-layout crayons-layout--3-cols crayons-layout--3-cols--drop-right-left" id="index-container"
       data-params="{&quot;sort_by&quot;:&quot;hotness_score&quot;,&quot;sort_direction&quot;:&quot;desc&quot;}" data-which=""
       data-tag=""
@@ -727,32 +678,17 @@
 
 
     <main class="articles-list crayons-layout__content" id="main-content" data-follow-button-container="true">
-      hey como andan
+      <style>
+        .onboarding-task-card {
+          display: none;
+        }
+        </style>
 
-      <h2 class="task-card-title" id="task-card-title">You&#39;re now a part of the community!</h2>
-  <p id="task-card-subtitle" class="task-card-subtitle">SUGGESTED THINGS YOU CAN DO</p>
+       <div class="cuadro">
+        aqui va un cuadro
 
-  <ul class="task-card-actions">
-    <li class="task-card-action">
-      <a class="task-card-link" href="/welcome">
-        <p><span class="emoji">😊</span>Join the Welcome thread</p>
-        <svg width="8" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.172 7L.222 2.05 1.636.636 8 7l-6.364 6.364L.222 11.95 5.172 7z" fill="#fff" /></svg>
-      </a>
-    </li>
+       </div> 
 
-    <li class="task-card-action js-policy-article-create">
-      <a class="task-card-link" href="/new">
-        <p><span class="emoji">✍🏾</span>Write your first DEV Community post</p>
-        <svg width="8" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.172 7L.222 2.05 1.636.636 8 7l-6.364 6.364L.222 11.95 5.172 7z" fill="#fff" /></svg>
-      </a>
-</li>
-    <li class="task-card-action">
-      <a class="task-card-link" href="/settings">
-        <p><span class="emoji">💅🏼</span>Customize your profile</p>
-        <svg width="8" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.172 7L.222 2.05 1.636.636 8 7l-6.364 6.364L.222 11.95 5.172 7z" fill="#fff" /></svg>
-      </a>
-    </li>
-  </ul>
 <div class="onboarding-task-card" role="dialog" aria-labelledby="task-card-title" aria-describedby="task-card-subtitle">
   <button class="close" onclick="closeTaskCard()" aria-label="Close Welcome Message">
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

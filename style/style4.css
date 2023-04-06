@@ -1,0 +1,7 @@
+.cuadro {
+    width: 100%;           
+    height: 330px;          
+    background: rgb(59 223 147); 
+    border: 1px solid #f1efef; 
+    border-radius: 25px;
+  }
