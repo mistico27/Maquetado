@@ -3,5 +3,22 @@
     height: 330px;          
     background: rgb(59 223 147); 
     border: 1px solid #f1efef; 
-    border-radius: 25px;
+    border-radius: 12px;
+  }
+
+  .task-card-image{
+    position:absolute;
+    top: 32%;
+    left:27%;
+    width: 108px;
+    height: 100px;
+  }
+
+  .close{
+
+    background: none;
+    border: none;
+    position: absolute;
+    top: 26%;
+    right: 31%;
   }
