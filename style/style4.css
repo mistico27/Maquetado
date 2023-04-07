@@ -63,10 +63,11 @@
   .placeDiv{
     position:relative;
     top:20%;
+    left:-5%;
     background: transparent;
     margin: auto;
     width: 97%;
-    padding: 42px;
+    padding: 29px;
   }
 
   .task-card-link{
