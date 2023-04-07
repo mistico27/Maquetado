@@ -1,16 +1,16 @@
 .cuadro {
     width: 100%;           
-    height: 33%;          
+    height: 22%;          
     background: rgb(59 223 147); 
     border: 1px solid #f1efef; 
     border-radius: 12px;
   }
 
-  .task-card-image{
-    position:absolute;
-    top: 18%;
-    left:26%;
-    width: 108px;
+  .image{
+    position:relative;
+    left:5%; 
+    bottom: -40px;
+    width: 108px; 
     height: 100px;
   }
 
@@ -19,28 +19,27 @@
     border: none;
     position: relative;
     left:92%;
-    top:5%
+    top:-10%
   }
 
   .task-card-title{
-    position:relative;
-    top: 25%;
-    left:6%;
-    line-height: 168%;
-    font-size: 25pt;
+    position: relative;
+    top: 0%;
+    left: 5%;
+    line-height: 102%;
+    font-size: 29pt;
     color: white;
   }
 
   .task-card-subtitle{
-    position:absolute;
-    top: 44%;
-    left:26%;
-  color: white;
-  opacity: 0.7;
-  font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
+    color: white;
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.25;
+    letter-spacing: -0.02em;
+    position: relative;
+    left: 6%;
   }
 
   .task-card-action{
@@ -61,13 +60,13 @@
   }
 
   .placeDiv{
-    position:relative;
-    top:20%;
-    left:-5%;
+    position: relative;
+    top: -2%;
+    left: -3%;
     background: transparent;
     margin: auto;
-    width: 97%;
-    padding: 29px;
+    width: 100%;
+    padding: 22px;
   }
 
   .task-card-link{
