@@ -1,0 +1,281 @@
+
+/*Aqui va el header*/
+
+.site-logo__img{
+  position: relative;
+  left: 40px;  
+	max-width: 50%;
+    width: auto;
+    height: 2%;
+    vertical-align: middle;
+    display: inline-block;
+    outline: 0;
+}
+
+.move_toleft{
+  position: relative;
+  left: 50%;
+}
+
+header{
+	border-style: outset;
+	height:65px;
+}
+/*Aqui va main*/
+.post_layout{
+    font-size: 1rem;
+    width: 30%;
+    max-width:1280px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1 rem;
+    grid-template-columns: 3fr;
+    padding: 1rem;
+
+}
+
+
+.post_layout__sidebar-left {
+    display: block;
+    grid-row-end: initial;
+    width: 4 rem;
+}
+
+
+.post_article_actions {
+        border-top-left-radius:0;
+        border-top-right-radius: 0;
+        padding: 0;
+        padding-bottom: 0;
+        background: rgba(245,245,245,1);
+        display: grid;
+        gap: 1.5rem;
+        position: -webkit-sticky;
+        position: sticky;
+        box-shadow: none;
+        justify-content: stretch;
+        top: 80px;
+        z-index: 1;
+}
+
+.post_article_actions_inner{
+	display: grid;
+    gap: 1 rem;
+    justify-content: stretch;
+}
+
+.post_drawer__outer{
+	order: none;
+    padding: 0;
+    background: transparent;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.post_reaction{
+	   color:#3d3d3d;
+    border: none;
+    background: transparent;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.post-reaction__icon--borderless {
+    padding: 0.5rem;
+    box-shadow: none;
+    background: none;
+    color:black;
+    border-radius: 0;
+    transition: cubic-bezier(0.17, 0.67, 0.5, 0.71);
+}
+
+.post-reaction__count{
+	    color: #575757;
+    font-size: 0.875rem;
+    display: inline-flex;
+    margin-left:0.25rem;
+    min-width: 1.25rem;
+}
+
+.black_shadow{
+	padding:0.5rem;
+	border-radius:0.375rem;
+	display:inline-block;
+	background-color:black;
+	opacity: 0.25;
+}
+
+#main_content{
+	scroll-margin-top: 56px;
+}
+
+
+.flexbox-container {
+        display: -ms-flex;
+        display: -webkit-flex;
+        display: flex;
+		margin-top:1%
+}
+
+.flexbox-container > div {
+        width: 50%;
+        padding: px;
+}
+
+.flexbox-container > div:first-child {
+        margin-right: 5px;
+}
+
+.flexbox-container > div:second-child {
+        margin-right: 20px;
+}
+
+
+.Post_article__cover{
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 5px;
+  width: 120px;
+}
+
+
+
+element.style {
+    background-color: #dddddd;
+}
+.post_article__cover__image {
+    position: relative;
+    left: -100%;
+    width: 690%;
+}
+
+
+
+
+
+.listings{
+	border-style: groove;
+border-color:#3c3c4c2b;
+    color: black;
+      border-radius: 10px;
+}
+
+.listings_card__header{
+	    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listings_subtitle{
+	font-size:1.25rem;
+	font-weight:bold;
+}
+.listings-link {
+	    color: rgba(64,64,64,1);
+}
+
+.listings-link-content{
+	    display: block;
+    padding: 1 rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+.listings-link-content2{
+	display: block;
+    padding: 1 rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+	text-align: center;
+	font-weight:bold;
+
+}
+
+.listings-link__secondary{
+	color: #717171;
+    font-size: 0.875rem;
+    padding-top: 0.25rem;
+}
+
+
+.A{
+		margin-top:1rem;
+		border-style: groove;
+border-color:#3c3c4c2b;
+    color: black;
+      border-radius: 10px;
+	 border-top-width: 1 px;
+}
+
+.post_Avatar{
+	border-radius:75%;
+}
+
+.post_boton{
+	text-align:center;
+	border-radius:5px;
+	background-color:blue;
+	color:white;
+	position:relative;
+	    left: 9%;
+    width: 80%;
+    top: 3px;
+	border-style: none;
+}
+	
+.post_user_style{
+	list-style:none;
+}
+
+/*Aqui va el footer*/
+.footer-basic {
+  padding:40px 0;
+  background-color:#cfd7ff;
+  color:blue;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .maquetado{
+	color:white;
+	text-align:center;
+	font-size:300%;
+	 font-weight: bold;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
